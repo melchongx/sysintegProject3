@@ -3,9 +3,9 @@ import requests
 def get_ip_info():
     url = "https://ipapi.co/json/"
     try:
-        response = requests.get(url)
+        response = requests.get(url) # Makes a request to the API's URL 
         response.raise_for_status()  # Check for HTTP errors
-        ip_info = response.json()
+        ip_info = response.json() # Awaits for a response from the request
 
         # Extract relevant information
         public_ip = ip_info.get("ip","N/A")
@@ -25,6 +25,7 @@ def get_ip_info():
         print(f"Latitude: {lat}, Longitude: {lon}")
 
     except requests.RequestException as e:
+        # Error message when request fails
         print(f"Error retrieving IP information: {e}")
 
 if __name__ == "__main__":
