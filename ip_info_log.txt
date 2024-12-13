@@ -1,0 +1,7 @@
+Public IP: 112.203.75.10
+Location: Quezon City, Metro Manila, PH
+ISP: AS9299 Philippine Long Distance Telephone Company
+ASN: AS9299 Philippine Long Distance Telephone Company
+Latitude: 14.6488
+Longitude: 121.0509
+-----------------------------------------
